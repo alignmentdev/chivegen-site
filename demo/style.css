@@ -1,0 +1,130 @@
+body {
+	background: linear-gradient(#00c18a, #081583) no-repeat fixed;
+	background-size: cover;
+	color: #fff;
+	font-family: "Garamond", serif;
+	font-size: 0.9em;
+}
+
+.wrapper {	
+	width: 900px;
+	margin: 0 auto;
+}
+
+.main, .links, .footer {
+	padding: 15px;
+	margin: 0 auto;
+}
+		
+.main, .chapter-content, .chapter-nav a, .links, .storyinfo blockquote {	
+	border-radius: 5px;
+}
+
+.main {
+	border: 1px solid #1a1b29;
+	background: rgba(26, 27, 41, 0.5);
+}
+
+a {
+	color: #ddd;
+}
+
+.links {
+	font-size: 1.35em;
+	border: 1px solid #1a1b29;
+	background: rgba(26, 27, 41, 0.75);
+	margin-bottom: 15px;
+}
+
+.footer {
+	font-size: 0.85em;
+	text-align: center;
+}
+
+/*Used in the infobox template.*/
+.storyinfo {
+	background: #1a1b29;
+	padding: 1px 15px 15px 15px;
+	border-radius: 5px;
+}
+
+.field-label, .pagination, .small-details .field, .last {
+	display: inline-block;
+}
+
+.storyinfo blockquote, .chapter-notes blockquote {
+	margin: 10px 5px;
+	padding: 10px;
+}
+
+h4, .chapter-content, .storyinfo {	
+	margin: 15px 5px;
+}
+
+.field {
+	padding: 2px 5px;
+}
+
+.small-details {
+	font-size: 0.9em;
+	margin: 0 auto;
+}
+
+.small-details .field {
+	padding-right: 0;
+}
+
+.field-label {
+	font-weight:bold;
+}
+
+.storyinfo blockquote {
+	background: rgb(56, 60, 90, 0.5);
+}
+
+.chapter-notes blockquote {
+	background: rgba(26, 27, 41, 0.5);
+}
+
+.chapter-nav {
+	text-align: right;
+	margin: 5px;
+}
+
+.chapter-nav a {
+	text-align: center;
+	background: rgba(26, 27, 41, 0.75);
+	padding: 5px;
+	text-decoration: none;
+}
+
+.chapter-content {
+	background: rgba(26, 27, 41, 0.5);
+	padding: 5px 15px;
+}
+
+h4 {
+	font-size: 1.15em;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	width: 90%;
+	background: white;
+}
+
+.small-details .field:after {
+	content: " | ";
+}
+
+.small-details .field:last-child:after {
+	content: "";
+}
+
+/*Mobile*/
+@media(orientation:portrait) {
+	.wrapper {
+		width: 90%;
+	}
+}
